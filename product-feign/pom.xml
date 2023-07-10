@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-cloud-shop-6012</artifactId>
+        <groupId>com.newer</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <!--配置open feign模块坐标-->
+    <artifactId>product-feign</artifactId>
+    <groupId>com.newer.feign</groupId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <dependencies>
+        <!--导入shop-common模块-->
+        <dependency>
+            <groupId>com.newer.common</groupId>
+            <artifactId>shop-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--导入product-feign模块-->
+        <dependency>
+            <groupId>com.newer.feign</groupId>
+            <artifactId>product-feign</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--springboot-web-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--导入openfeign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.2.6.RELEASE</version>
+        </dependency>
+
+        <!--nacos-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/libs-milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>apache.spring-cloud</id>
+            <name>Apache spring-cloud Repository</name>
+            <url>https://www.apache.org/license/LICENSE-2.0</url>
+        </repository>
+    </repositories>
+
+</project>

@@ -1,0 +1,6 @@
+org:
+  my:
+    jwt:
+      #跳过认证的路由
+      skipAuthUrls:
+        - /ProductLogin.do

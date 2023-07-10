@@ -1,0 +1,14 @@
+# 项目排除路径
+/product-config/target/
+/product-consume/target/
+/product-emp/target/
+/product-feign/target/
+/product-gateway/target/
+/product-mybatisplus/target/
+/product-sentinel/target/
+/product-service/target/
+/product-stream/target/
+/product-stream-consumer/target/
+/product-stream-consumer2/target/
+/product-stream-provider/target/
+/shop-common/target/

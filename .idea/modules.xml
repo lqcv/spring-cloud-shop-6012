@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/product-config/product-config.iml" filepath="$PROJECT_DIR$/product-config/product-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-consume/product-consume.iml" filepath="$PROJECT_DIR$/product-consume/product-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-emp/product-emp.iml" filepath="$PROJECT_DIR$/product-emp/product-emp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-feign/product-feign.iml" filepath="$PROJECT_DIR$/product-feign/product-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-gateway/product-gateway.iml" filepath="$PROJECT_DIR$/product-gateway/product-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-mybatisplus/product-mybatisplus.iml" filepath="$PROJECT_DIR$/product-mybatisplus/product-mybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-sentinel/product-sentinel.iml" filepath="$PROJECT_DIR$/product-sentinel/product-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-stream/product-stream.iml" filepath="$PROJECT_DIR$/product-stream/product-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-stream-consumer/product-stream-consumer.iml" filepath="$PROJECT_DIR$/product-stream-consumer/product-stream-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-stream-consumer2/product-stream-consumer2.iml" filepath="$PROJECT_DIR$/product-stream-consumer2/product-stream-consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-stream-provider/product-stream-provider.iml" filepath="$PROJECT_DIR$/product-stream-provider/product-stream-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-common/shop-common.iml" filepath="$PROJECT_DIR$/shop-common/shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-shop-6012.iml" filepath="$PROJECT_DIR$/spring-cloud-shop-6012.iml" />
+    </modules>
+  </component>
+</project>

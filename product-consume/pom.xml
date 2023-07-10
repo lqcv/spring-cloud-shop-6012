@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<parent>
+    <artifactId>spring-cloud-shop-6012</artifactId>
+    <groupId>com.newer</groupId>
+    <version>1.0-SNAPSHOT</version>
+</parent>
+
+<modelVersion>4.0.0</modelVersion>
+
+<artifactId>product-consumer</artifactId>
+
+
+<dependencies>
+    <!--导入product-feign模块-->
+    <dependency>
+        <groupId>com.newer.feign</groupId>
+        <artifactId>product-feign</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+        <groupId>com.newer.emp</groupId>
+        <artifactId>product-emp</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <!--导入shop-common模块-->
+    <dependency>
+        <groupId>com.newer.common</groupId>
+        <artifactId>shop-common</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <!--springboot-web-->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <!--nacos-->
+    <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+    </dependency>
+    <!--导入openfeign-->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-openfeign</artifactId>
+        <version>2.2.6.RELEASE</version>
+    </dependency>
+    <dependency>
+        <groupId>com.oracle.database.jdbc</groupId>
+        <artifactId>ojdbc8</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+    </dependency>
+</dependencies>
+
+<repositories>
+    <repository>
+        <id>spring-milestones</id>
+        <name>Spring Milestones</name>
+        <url>https://repo.spring.io/libs-milestone</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+    <repository>
+        <id>aliyun</id>
+        <name>aliyun</name>
+        <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+    </repository>
+</repositories>
+
+</project>

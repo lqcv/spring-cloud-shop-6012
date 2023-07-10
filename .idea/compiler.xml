@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="product-mybatisplus" />
+        <module name="product-config" />
+        <module name="product-stream" />
+        <module name="product-stream-provider" />
+        <module name="product-service" />
+        <module name="product-stream-consumer" />
+        <module name="product-consume" />
+        <module name="product-emp" />
+        <module name="product-gateway" />
+        <module name="product-sentinel" />
+        <module name="product-stream-consumer2" />
+        <module name="shop-common" />
+        <module name="product-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="product-config" target="1.8" />
+      <module name="product-consume" target="1.8" />
+      <module name="product-emp" target="1.8" />
+      <module name="product-feign" target="1.8" />
+      <module name="product-gateway" target="1.8" />
+      <module name="product-mybatisplus" target="1.8" />
+      <module name="product-sentinel" target="1.8" />
+      <module name="product-service" target="1.8" />
+      <module name="product-stream" target="1.8" />
+      <module name="product-stream-consumer" target="1.8" />
+      <module name="product-stream-consumer2" target="1.8" />
+      <module name="product-stream-provider" target="1.8" />
+      <module name="shop-common" target="1.8" />
+      <module name="spring-cloud-shop-6012" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="product-config" options="-parameters" />
+      <module name="product-consume" options="-parameters" />
+      <module name="product-emp" options="-parameters" />
+      <module name="product-feign" options="-parameters" />
+      <module name="product-gateway" options="-parameters" />
+      <module name="product-mybatisplus" options="-parameters" />
+      <module name="product-sentinel" options="-parameters" />
+      <module name="product-service" options="-parameters" />
+      <module name="product-stream" options="-parameters" />
+      <module name="product-stream-consumer" options="-parameters" />
+      <module name="product-stream-consumer2" options="-parameters" />
+      <module name="product-stream-provider" options="-parameters" />
+      <module name="shop-common" options="-parameters" />
+      <module name="spring-cloud-shop-6012" options="-parameters" />
+    </option>
+  </component>
+</project>
